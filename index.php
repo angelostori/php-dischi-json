@@ -13,8 +13,12 @@ require_once "./functions.php";
 <body>
     <h1>Raccolta Musicale</h1>
 
-    <p>
-        <?php echo $test ?>
-    </p>
+    <ul>
+        <?php
+        foreach($records as $record) {
+            echo "<li>" . $record['title'] . " - " . $record['artist'] . "</li>";
+        }
+        ?>
+    </ul>
 </body>
 </html>
