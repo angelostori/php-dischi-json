@@ -1,6 +1,6 @@
 <?php
 
-    // leggere il file dei todo e salvarli in una variabile
+    // leggere il file dei record e salvarli in una variabile
     $record_text = file_get_contents('./records.json');
 
     // convertiamo la sringa da json a struttura dati php

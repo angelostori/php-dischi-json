@@ -22,7 +22,7 @@ require_once "./functions.php";
         <div class="row row-cols-1 row-cols-md-3 g-1">
             <?php foreach($records as $record) { ?>    
             <div class="col mb-3">
-                <div class="card">
+                <div class="card card-custom">
                     <img 
                         class="card-img-top mt-3 img-custom" 
                         src=<?php echo $record['cover_url'] ?> 
@@ -37,14 +37,20 @@ require_once "./functions.php";
             <?php } ?>
         </div>
 
-        <form action="server.php" method="POST">
-        <input type="text" id="new-title" name="title" placeholder="Titolo" required>
-        <input type="text" id="new-artist" name="artist" placeholder="Artista" required>
-        <input type="text" id="new-release-date" name="release_date" placeholder="Data di uscita" required>
-        <input type="text" id="new-genre" name="genre" placeholder="Genere" required>
-        <input type="text" id="new-cover-url" name="cover_url" placeholder="URL copertina" required>
-        <button>Aggiungi</button>
-        </form>
+        <div class="form-control mt-5 mb-5 p-4">
+            <h2>Aggiungi un nuovo disco</h2>
+
+            <form action="server.php" method="POST">
+                <input type="text" name="title" placeholder="Titolo" required>
+                <input type="text" name="artist" placeholder="Artista" required>
+                <input type="text" name="release_date" placeholder="Data di uscita" required>
+                <input type="text" name="genre" placeholder="Genere" required>
+                <input type="text" name="cover_url" placeholder="URL copertina" required>
+
+                <button type="submit" class="btn btn-success">Aggiungi</button>
+            </form>
+        </div>
+        
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

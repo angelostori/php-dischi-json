@@ -17,10 +17,13 @@ body {
 }
 
 .card {
-    height: auto;
-    max-width: 250px;
     background-color: #10202f !important;
     color: white !important;
+}
+
+.card-custom {
+    height: auto;
+    max-width: 250px;
 }
 
 .card .img-custom {
@@ -34,4 +37,18 @@ div.card-body {
     text-align: center;
     height: 150px;
     overflow: hidden;
+}
+
+/*-----FORM-----*/
+
+body>div.container>div.form-control.mt-5.mb-5.p-4 {
+    background-color: #10202f !important;
+    color: white !important;
+    border: none;
+}
+
+body>div.container>div.form-control.mt-5.mb-5.p-4>form>input {
+    border-radius: 8px;
+    padding: 3px;
+    margin: 0.5rem;
 }
