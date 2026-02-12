@@ -2,43 +2,50 @@
     {
         "title": 1998,
         "artist": "Coez",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2025,
         "genre": "Indie"
     },
     {
         "title": "ye",
         "artist": "Kanye West",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2018,
         "genre": "Hip-Hop"
     },
     {
         "title": "PERSONA",
         "artist": "Marracash",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2019,
         "genre": "Rap"
     },
     {
         "title": "The Freak Show",
         "artist": "NASKA",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2024,
         "genre": "Punk"
     },
     {
         "title": "Shoot For The Stars Aim For The Moon",
         "artist": "Pop Smoke",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2020,
         "genre": "Hip-Hop"
     },
     {
         "title": "Comuni Mortali",
         "artist": "Achille Lauro",
-        "cover_url": "https://picsum.photos/200/300",
+        "cover_url": "https:\/\/picsum.photos\/200\/300",
         "release_date": 2025,
         "genre": "Pop"
+    },
+    {
+        "title": "1969",
+        "artist": "Achille Lauro",
+        "release_date": "2019",
+        "genre": "Pop",
+        "cover_url": "https:\/\/picsum.photos\/200\/300"
     }
 ]
