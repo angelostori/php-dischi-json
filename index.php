@@ -36,6 +36,15 @@ require_once "./functions.php";
             </div>
             <?php } ?>
         </div>
+
+        <form action="server.php" method="POST">
+        <input type="text" id="new-title" name="title" placeholder="Titolo" required>
+        <input type="text" id="new-artist" name="artist" placeholder="Artista" required>
+        <input type="text" id="new-release-date" name="release_date" placeholder="Data di uscita" required>
+        <input type="text" id="new-genre" name="genre" placeholder="Genere" required>
+        <input type="text" id="new-cover-url" name="cover_url" placeholder="URL copertina" required>
+        <button>Aggiungi</button>
+        </form>
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
